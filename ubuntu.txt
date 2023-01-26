@@ -1,0 +1,22 @@
+ 1. cat > home_animals
+    cat > pack_animals
+    cat home_animals pack_animals > file
+    cat file
+    mv file humans_friends
+    cat humans_friends
+ 2. mkdir animals
+    ll
+    mv humans_friends animals/
+    cd animals/
+    ll
+ 3. sudo apt install mysql-server
+ 4. cd
+    cd shared/
+    wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+    dpkg -i mysql-apt-config_0.8.23-1_all.deb
+    sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+    sudo dpkg -r mysql-apt-config
+ 5. history
+  
+   
+   
